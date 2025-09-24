@@ -12134,9 +12134,10 @@ h5,
 }
 
 .owl-carousel.home-slider {
+  display: block !important;
   position: relative;
   height: 750px;
-  z-index: 0;
+  z-index: 10 !important;
 }
 
 .owl-carousel.home-slider .slider-item {
